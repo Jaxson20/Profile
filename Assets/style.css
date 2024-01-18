@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+#Aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  
+
+}
+
+#Aboutme p {
+    width: 90%;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+
+#Aboutme img {
+    width: 48%; /* Adjust the width as needed */
+    border-radius: 10px; /* Optional: Add border-radius for a rounded image */
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#work {
+    text-align: center;
+    padding: 20px; 
+    
+}
+
+#Resume {
+    text-align: center;
+    padding: 20px;
+   
+}
+#Contactme {
+    text-align: center;
+    padding: 20px;
+   
+}
