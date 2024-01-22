@@ -4,8 +4,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -57,10 +57,24 @@ nav a:hover {
     max-height: fit-content;
 }
 
-#work {
+#Work {
     text-align: center;
     padding: 20px; 
-    
+}
+
+#gamersgrind,
+#mapstats,
+#Petchat {
+    display: inline-block;
+    margin: 10px; /* Optional: Add some margin between the divs */
+    vertical-align: top;
+}
+
+#gamersgrind img,
+#mapstats img,
+#Petchat img {
+    max-width: 100%; /* Adjust the width to fit the container */
+    height: auto; /* Maintain aspect ratio */
 }
 
 #Resume {
