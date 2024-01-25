@@ -46,7 +46,7 @@ nav a:hover {
 #Aboutme p {
     width: 90%;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 34px;
     
 }
 
@@ -60,21 +60,25 @@ nav a:hover {
 #Work {
     text-align: center;
     padding: 20px; 
-}
-
-#gamersgrind,
-#mapstats,
-#Petchat {
     display: inline-block;
-    margin: 10px; /* Optional: Add some margin between the divs */
-    vertical-align: top;
 }
 
-#gamersgrind img,
-#mapstats img,
-#Petchat img {
-    max-width: 100%; /* Adjust the width to fit the container */
-    height: auto; /* Maintain aspect ratio */
+#gamersgrind {
+    margin: 10px; /* Optional: Add some margin between the divs */
+    max-width: min-content; /* Adjust the width to fit the container */
+    max-height: min-content;
+}
+
+#mapstats {
+    margin: 10px; /* Optional: Add some margin between the divs */
+    max-width: min-content; /* Adjust the width to fit the container */
+    max-height: min-content;
+}
+
+#Petchat {
+    margin: 10px; /* Optional: Add some margin between the divs */
+    max-width: min-content; /* Adjust the width to fit the container */
+    max-height: min-content; /* Maintain aspect ratio */
 }
 
 #Resume {
